@@ -2,10 +2,10 @@
 
 This repository contains a complete IoT Sensor Data Lakehouse implementation including:
 
-- **infra/**: Terraform code for provisioning AWS infrastructure (IoT Core, S3, Glue, IAM).
-- **simulator/**: Python-based IoT sensor simulator publishing to AWS IoT Core.
-- **etl/**: AWS Glue ETL job (Python) to process raw data in S3 and load into Snowflake.
-- **api/**: Spring Boot Java microservice exposing REST endpoints to query sensor readings.
+- **infra**: Terraform code for provisioning AWS infrastructure (IoT Core, S3, Glue, IAM).
+- **simulator**: Python-based IoT sensor simulator publishing to AWS IoT Core.
+- **etl**: AWS Glue ETL job (Python) to process raw data in S3 and load into Snowflake.
+- **api**: Spring Boot Java microservice exposing REST endpoints to query sensor readings.
 
 ## Setup
 
